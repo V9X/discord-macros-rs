@@ -1,0 +1,8 @@
+[package]
+name = "discord-macros"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+discord-macros-common = { path = "../discord-macros-common"}
+discord-macros-derive = { path = "../discord-macros-derive"}
