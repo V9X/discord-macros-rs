@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+members = [
+    "discord-macros-derive",
+    "discord-macros",
+    "discord-macros-common"
+]
+
+[workspace.dependencies]
+serde_json = "1.0.108"
+const_format = "0.2.32"
+serde = { version = "1.0.203", features = ["derive"] }
+ahash = "0.8.11"
+bitflags = "2.6.0"
+strsim = "0.11.1"
+proc-macro2 = "1.0.86"
+syn = "2.0.71"
+quote = "1.0.36"
+darling = "0.20.10"
